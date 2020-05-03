@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>test_my_site</title>
-    <link href="/2020/05/01/test-my-site/"/>
-    <url>/2020/05/01/test-my-site/</url>
+    <title>Hello Hexo</title>
+    <link href="/2020/05/03/hello-hexo/"/>
+    <url>/2020/05/03/hello-hexo/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<p>这是我部署在VPS上的基于Hexo框架+Fluid主题的个人博客</p>]]></content>
     
     
     
