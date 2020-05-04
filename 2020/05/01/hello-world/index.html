@@ -280,29 +280,6 @@
   
 
   
-    <!-- APlayer 音乐播放器 -->
-    <div id="aplayer"></div>
-    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
-<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
-<script type="text/javascript">
-  var oldLoadAp = window.onload;
-  window.onload = function () {
-    oldLoadAp && oldLoadAp();
-
-    new APlayer({
-      container: document.getElementById('aplayer'),
-      fixed: true,
-      autoplay: 'false' === 'true',
-      loop: 'all',
-      order: 'random',
-      theme: '#b7daff',
-      preload: 'none',
-      audio: [{"name":"DAYBREAK FRONTLINE","artist":"めありー Orangestar","url":"/songs/めありー Orangestar - DAYBREAK FRONTLINE.mp3","cover":"/img/cover-daybreakfrontline.jpg"},{"name":"アオイハルカゼ","artist":"H△G","url":"/songs/H△G - アオイハルカゼ.mp3","cover":"/img/cover-アオイハルカゼ.jpg"}]
-    });
-  }
-</script>
-
-  
 
   
 
