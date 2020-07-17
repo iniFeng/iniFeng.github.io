@@ -4,25 +4,6 @@
   
   
   <entry>
-    <title>字节跳动客户端提前批面试经历</title>
-    <link href="/2020/07/13/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%8F%90%E5%89%8D%E6%89%B9%E9%9D%A2%E8%AF%95%E7%BB%8F%E5%8E%86/"/>
-    <url>/2020/07/13/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%8F%90%E5%89%8D%E6%89%B9%E9%9D%A2%E8%AF%95%E7%BB%8F%E5%8E%86/</url>
-    
-    <content type="html"><![CDATA[<p>秉持着重在参与的良好心态，我在提前批截止的前几天投了在字节里面听说最缺人的客户端开发岗位。此前没有把握投递，但最近的一次实习面试给了我这个蔡鸡一点点勇气，蛮投一投，简历过了就和面试官聊一聊，顺便也可以暴露出自己还有哪方面的知识欠缺。</p><p>面试过程中，我一边记录了一些面试官的问题，这里趁着刚面试完，记忆还算深刻，就发到这个博客上吧（顺便水一篇文章</p><h2 id="自我介绍"><a class="markdownIt-Anchor" href="#自我介绍"></a> 自我介绍</h2><h2 id="项目介绍"><a class="markdownIt-Anchor" href="#项目介绍"></a> 项目介绍</h2><p>由于没有什么项目经验，这里简历上写的是两个课程设计，大致上问了一下项目做了什么。有个项目是跟TCP连接有关，于是又问了Socket建立和TCP连接建立的过程。</p><h2 id="tcpudp"><a class="markdownIt-Anchor" href="#tcpudp"></a> TCP/UDP</h2><p>提问了</p><ol><li>TCP连接建立的过程</li><li>TCP怎么确保传输的可靠性</li><li>TCP连接建立之后是否可以双向发送数据</li><li>长连接KeepAlive</li></ol><p>这里答了TCP的三次握手和TCP丢包重传、拥塞控制、长连接由哪一端发出。</p><h2 id="linuxandroid方面的开发经验"><a class="markdownIt-Anchor" href="#linuxandroid方面的开发经验"></a> Linux/Android方面的开发经验</h2><p>有啥答啥。</p><h2 id="熟悉的数据结构"><a class="markdownIt-Anchor" href="#熟悉的数据结构"></a> 熟悉的数据结构</h2><p>可能想考哈希。</p><h2 id="堆和栈"><a class="markdownIt-Anchor" href="#堆和栈"></a> 堆和栈</h2><p>这里拉跨了。</p><h2 id="c语言"><a class="markdownIt-Anchor" href="#c语言"></a> C语言</h2><ol><li><p>指针占用多少字节，int占用多少字节 sizeof</p><p>int和指针占用的字节数跟系统有关；</p><p>指针的位数跟系统的寻址能力有关，64位机就是64位，即8个字节;</p></li><li><p>volatile;</p></li><li><p>如何通过指针来修改数组的值.</p></li></ol><h2 id="学校课程"><a class="markdownIt-Anchor" href="#学校课程"></a> 学校课程</h2><ol><li>设计模型</li><li>计组中开机的过程</li></ol><h2 id="平衡二叉树的时间复杂度"><a class="markdownIt-Anchor" href="#平衡二叉树的时间复杂度"></a> 平衡二叉树的时间复杂度</h2><h2 id="算法"><a class="markdownIt-Anchor" href="#算法"></a> 算法</h2><p>编程题就一道树的深度。</p><p>emmmmmm</p><h2 id="开放题"><a class="markdownIt-Anchor" href="#开放题"></a> 开放题</h2><p>两人轮流掷硬币，一方先掷出国徽面即可获胜，分别求出先手和后手获胜的几率。</p><p>用到一点概率论的知识。</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>面经</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>使用代理Git Clone</title>
     <link href="/2020/07/06/%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86Git-Clone/"/>
     <url>/2020/07/06/%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86Git-Clone/</url>
