@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Airbnb Clone with React</title>
+    <link href="/2020/08/09/Airbnb-Clone-with-React/"/>
+    <url>/2020/08/09/Airbnb-Clone-with-React/</url>
+    
+    <content type="html"><![CDATA[<p>本文是根据Ben Awad的React教学视频逐步学习制作而成的，旨在记录自己的学习过程和心得，将陆续更新进展。</p><ul><li>安装环境为Windows 10</li><li>Postgre 12</li><li>redis</li><li>Typescript</li></ul><h2 id="遇到的问题"><a class="markdownIt-Anchor" href="#遇到的问题"></a> 遇到的问题</h2><ul><li>Ben Awad的教程的环境为Mac，package.json的scripts配置与Windows不太一样</li></ul><pre><code class="hljs json">"scripts": &#123;    "start": "set NODE_ENV=development&amp;&amp;nodemon --exec ts-node src/index.ts",    "test": "set NODE_ENV=test&amp;&amp;jest --watch",    "gen-schema-types": "ts-node src/scripts/createTypes.ts"  &#125;,</code></pre><ul><li>教程为18年的，现在如果安装的PostgreSQL的版本较高的话，得选用新的TypeORM</li></ul><pre><code class="hljs json">"typeorm": "0.2.25",</code></pre><ul><li>PostgreSQL 第一次安装没有带数据库，重新安装一次</li></ul><h2 id="postgresql-的安装"><a class="markdownIt-Anchor" href="#postgresql-的安装"></a> PostgreSQL 的安装</h2><p><a href="https://ken.io/note/centos7-postgresql12-install-and-configuration" target="_blank" rel="noopener">https://ken.io/note/centos7-postgresql12-install-and-configuration</a></p><h2 id="redis的安装和启动"><a class="markdownIt-Anchor" href="#redis的安装和启动"></a> Redis的安装和启动</h2><p>在GitHub上下载Redis.msi 直接安装</p><p>启动的话需要在Redis安装目录下，启动CMD</p><pre><code class="hljs css"><span class="hljs-selector-tag">redis-server</span><span class="hljs-selector-class">.exe</span> <span class="hljs-selector-tag">redis-windos</span><span class="hljs-selector-class">.conf</span></code></pre><h2 id="开始react"><a class="markdownIt-Anchor" href="#开始react"></a> 开始React</h2><p>首先安装React Cli</p><pre><code class="hljs sql">npm -g <span class="hljs-keyword">install</span> <span class="hljs-keyword">create</span>-react-app</code></pre><p>然后选择合适的文件夹，在CMD里运行</p><pre><code class="hljs dsconfig"><span class="hljs-built_in">create-react-app</span> <span class="hljs-built_in">--scripts-version=react-scripts-ts</span><span class="hljs-built_in">cd</span> <span class="hljs-string">my-app/</span><span class="hljs-string">npm </span><span class="hljs-string">start</span></code></pre><p>这样就有了React的环境</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>React</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Git 使用方法小总结</title>
     <link href="/2020/07/06/%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86Git-Clone/"/>
     <url>/2020/07/06/%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86Git-Clone/</url>
